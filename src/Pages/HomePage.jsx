@@ -2,6 +2,7 @@ import React from 'react'
 import Appbar from '../Shared/Appbar'
 import Hero from '../HomePageComponents/Hero'
 import Menu from '../HomePageComponents/Menu'
+import About from '../HomePageComponents/About'
 
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
         <Appbar/>
         <Hero/>
         <Menu/>
+        <About/>
         
       
     </div>
