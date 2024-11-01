@@ -6,7 +6,6 @@ module.exports = {
       colors: {
         themeColor: "#474747",
         themeColorLight: "#5c5c5c",
-
         lightColor: "#FFFFFF",
       },
       fontFamily: {
@@ -14,5 +13,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"], // يستخدم الثيم الفاتح فقط
+  },
 };

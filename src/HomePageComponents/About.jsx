@@ -5,15 +5,15 @@ import ButtonTheme from "../Components/ButtonTheme";
 
 const About = () => {
   return (
-    <div className="flex w-full h-full bg-lightColor ">
-      <div className="w-full h-full flex px-24 py-28">
-        <div className="w-1/2  relative">
+    <div className="flex w-full h-full bg-lightColor sm:grid ">
+      <div className="w-full h-full grid sm:flex sm:px-24 py-28">
+        <div className="sm:w-1/2 relative">
           <img
             alt="about"
             src="/images/HomePage/about.png"
             className="h-full w-full rounded-xl"
           />
-          <div className="z-10 bg-themeColor rounded-xl absolute -bottom-12 -right-12 m-4 py-2 px-10 text-white grid justify-center items-center text-center font-playfair">
+          <div className="z-10 bg-themeColor rounded-xl absolute -bottom-12 sm:-right-12 m-4 py-2 px-10 text-white grid justify-center items-center text-center font-playfair">
             <h1 className=" mt-8 text-3xl">Come and visit us</h1>
             <div className="flex justify-center items-center mt-8 gap-2">
               <FaPhone />
@@ -29,8 +29,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 justify-center items-center text-left font-playfair  text-themeColor relative">
-          <div className=" w-2/3 absolute right-0 top-20 mr-10">
+        <div className="sm:w-1/2 justify-center items-center text-center sm:text-left font-playfair  text-themeColor relative">
+          <div className=" sm:w-2/3 absolute right-0 top-20 sm:mr-10">
             <strong className="text-[32px]">
               We provide healthy
               <br />

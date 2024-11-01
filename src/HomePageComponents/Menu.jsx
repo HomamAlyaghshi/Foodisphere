@@ -4,7 +4,7 @@ import { FaCoffee,FaUtensils ,FaCookie   } from 'react-icons/fa';
 
 const Menu = () => {
   return (
-    <div className="w-full h-full grid justify-center items-center  my-12 ">
+    <div className="w-full h-full grid justify-center items-center  my-12 bg-lightColor">
       <h1 className="sm:text-[38px] md:text-[48px] text-[28px] font-playfair italic text-center text-themeColor ">
         Browser our Menu
       </h1>
