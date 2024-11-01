@@ -75,7 +75,7 @@ const Appbar = () => {
             ))}
           </List>
         </Drawer>
-        {/* أزرار القائمة الأحجام الكبيرة */}
+        {/* أزرار القائمةd الأحجام الكبيرة */}
         <div className='hidden sm:flex mb-3 gap-1 text-lightColor -ml-20 '>
           <button className='bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12'>Home</button>
           <button className='bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12'>About</button>
