@@ -95,24 +95,24 @@ const Appbar = () => {
         {/* أزرار القائمةd الأحجام الكبيرة */}
         <div className="hidden sm:flex mb-3 gap-1 text-lightColor -ml-20 ">
           <Link to={"/homepage"}>
-            <button className="bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+            <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
               Home
             </button>
           </Link>
           <Link to={"/aboutpage"}>
-            <button className="bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+            <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
               About
             </button>
           </Link>
           <Link to={"/menupage"}>
-            <button className="bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+            <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
               Menu
             </button>
           </Link>
-          <button className="bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+          <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
             Pages
           </button>
-          <button className="bg-themeColor py-1 px-2 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+          <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
             Contact
           </button>
         </div>
