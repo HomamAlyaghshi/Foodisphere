@@ -51,7 +51,7 @@ const LogoSlider = () => {
           <img alt="logo3" src="/images/HomePage/logo4.png" className="w-16 sm:w-40 mx-2" />
         </div>
         <div className="flex justify-center p-2">
-          <img alt="logo3" src="/images/HomePage/logo5.png" className="w-16 sm:w-40 mx-2" />
+          <img alt="logo3" src="/images/HomePage/logo7.png" className="w-16 sm:w-40 mx-2" />
         </div>
         <div className="flex justify-center p-2">
           <img alt="logo3" src="/images/HomePage/logo6.png" className="w-16 sm:w-40 mx-2" />

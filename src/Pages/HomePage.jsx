@@ -8,6 +8,8 @@ import Content from '../HomePageComponents/Content'
 import Customers from '../HomePageComponents/Customers'
 import LogoSlider from '../HomePageComponents/LogoSlider'
 import Blog from '../HomePageComponents/Blog'
+import Newsletter from '../HomePageComponents/Newsletter'
+import Footer from '../Shared/Footer'
 
 
 
@@ -23,6 +25,8 @@ const HomePage = () => {
         <Customers/>
         <LogoSlider/>
         <Blog/>
+        <Newsletter/>
+        <Footer/>
         
       
     </div>

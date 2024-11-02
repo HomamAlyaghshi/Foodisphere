@@ -53,7 +53,7 @@ const Appbar = () => {
       <div className='h-2/3 bg-lightColor flex justify-between items-end px-16'>
         <div className='flex gap-4'>
           <img alt='Logo' src='/images/logo.png' className='w-full h-full' />
-          <h1 className='font-playfair italic text-[48px] text-themeColor'>Foodisphere</h1>
+          <h1 className='font-playfair italic text-[48px] text-themeColor hover:text-themeRed hover:scale-105'>Foodisphere</h1>
         </div>
         {/* أيقونة مينيو برغر لأحجام الجوال */}
         <div className='sm:hidden '>
