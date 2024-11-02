@@ -7,6 +7,7 @@ import GetStarted from "./Auth/GetStarted";
 import SignIn from "./Auth/SignIn";
 import SignUp from "./Auth/SignUp";
 import ForgetPassword from "./Auth/ForgetPassword";
+import MenuPage from "./Pages/MenuPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/password" component={ForgetPassword} />
           <Route path="/homepage" component={HomePage} />
           <Route path="/aboutpage" component={AboutPage} />
+          <Route path="/menupage" component={MenuPage} />
         </Switch>
       </div>
     </Router>

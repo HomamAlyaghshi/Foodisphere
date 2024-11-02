@@ -15,7 +15,7 @@ const Footer = () => {
     <p className="font-bold text-xl font-playfair italic ">
     Foodisphere.
       <br />
-      Deleploverd By Homam Alyaghshi      <br />
+      Developed  By Homam Alyaghshi      <br />
 +963 997 831 250 
     </p>
     <p className='font-playfair font-bold'>Copyright © {new Date().getFullYear()} - All right reserved</p>

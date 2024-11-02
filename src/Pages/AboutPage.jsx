@@ -3,6 +3,8 @@ import About from "./../HomePageComponents/About";
 import Footer from "../Shared/Footer";
 import Appbar from "../Shared/Appbar";
 import AboutVideo from "../AboutPageComponents/AboutVideo";
+import Values from "../AboutPageComponents/Values";
+import AboutCustomers from "../AboutPageComponents/AboutCustomers";
 
 const AboutPage = () => {
   return (
@@ -10,6 +12,8 @@ const AboutPage = () => {
       <Appbar />
       <About src={"/images/HomePage/about2.png"} />
       <AboutVideo/>
+      <Values/>
+      <AboutCustomers/>
       <Footer />
     </div>
   );

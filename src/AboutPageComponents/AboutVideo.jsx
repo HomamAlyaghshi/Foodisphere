@@ -9,7 +9,6 @@ const AboutVideo = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="bg-slate-600"></div>
     </div>
   );
 };
