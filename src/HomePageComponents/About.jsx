@@ -5,8 +5,8 @@ import ButtonTheme from "../Components/ButtonTheme";
 
 const About = () => {
   return (
-    <div className="flex w-full h-full bg-lightColor sm:grid ">
-      <div className="w-full h-full grid sm:flex sm:px-24 py-28">
+    <div className="flex w-full h-full bg-gray-100 sm:grid ">
+      <div className="w-full h-full grid sm:flex sm:px-24 sm:py-28">
         <div className="sm:w-1/2 relative">
           <img
             alt="about"
@@ -29,14 +29,14 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="sm:w-1/2 justify-center items-center text-center sm:text-left font-playfair  text-themeColor relative">
-          <div className=" sm:w-2/3 absolute right-0 top-20 sm:mr-10">
+        <div className="sm:w-1/2 justify-center flex sm:grid items-center text-center sm:text-left font-playfair  text-themeColor ">
+          <div className=" sm:w-2/3 mt-10  sm:mx-24">
             <strong className="text-[32px]">
               We provide healthy
               <br />
               food for you family.
             </strong>
-            <div className="text-[16px] mt-6 mb-6 ">
+            <div className="text-[16px] mt-6 mb-6  ">
               The forest was alive with whispers of ancient trees and the gentle
               rustle of leaves. Every corner turned revealed a hidden beauty, a
               place where time seemed to stand still. Nature’s secrets beckoned

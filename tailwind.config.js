@@ -7,6 +7,7 @@ module.exports = {
         themeColor: "#474747",
         themeColorLight: "#5c5c5c",
         lightColor: "#FFFFFF",
+        themeRed: "#AD343E",
       },
       fontFamily: {
         playfair: ['"Playfair Display"', "serif"],
@@ -15,6 +16,6 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light"], // يستخدم الثيم الفاتح فقط
+    themes: ["light"],
   },
 };

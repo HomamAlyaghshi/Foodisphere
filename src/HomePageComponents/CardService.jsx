@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardService = ({src,title,subtitle}) => {
   return (
-<div className="card card-compact bg-themeColor text-white w-[300px] shadow-xl font-playfair italic">
+<div className="card card-compact bg-themeColor text-white w-[300px] h-full shadow-xl font-playfair italic">
   <figure>
     <img
       alt="servcie"
