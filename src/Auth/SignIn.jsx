@@ -19,10 +19,10 @@ const SignIn = () => {
         </div>
         <div className="hero-content text-center bg-white opacity-90 rounded-lg px-10 py-20 text-themeColor">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold font-playfair italic">
+            <h1 className="mb-5 text-5xl  w-[400px] font-bold font-playfair italic">
               SignIn
             </h1>
-            <div className="grid gap-4 w-full">
+            <div className="grid gap-4 ">
             <TextField id="outlined-basic" label="User Name Or Email" variant="outlined" required fullWidth />
             <TextField id="outlined-basic" label="Password" variant="outlined" required fullWidth/>
             <button className="text-left text-themeRed font-playfair hover:underline">Forget your password?</button>
