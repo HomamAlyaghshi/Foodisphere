@@ -91,6 +91,16 @@ const GridPhoto = () => {
       badge: "SPECIAL",
       price: "28.89$",
     },
+    {
+        id: 9,
+        category: "Main Dishes",
+        title: "Burger",
+        description:
+          "Rich and creamy cheesecake with a graham cracker crust and berry topping.",
+        image: "/images/MenuPage/food9.png",
+        tags: ["Dinner", "Dinner"],
+        price: "15.00$",
+      },
   ];
 
   const filteredData =
