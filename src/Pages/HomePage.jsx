@@ -19,7 +19,7 @@ const HomePage = () => {
         <Appbar/>
         <Hero/>
         <Menu/>
-        <About/>
+        <About src={"/images/HomePage/about.png"}/>
         <Service />
         <Content />
         <Customers/>

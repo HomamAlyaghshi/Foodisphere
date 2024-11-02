@@ -3,14 +3,14 @@ import { FaLocationArrow, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import ButtonTheme from "../Components/ButtonTheme";
 
-const About = () => {
+const About = ({src}) => {
   return (
     <div className="flex w-full h-full bg-gray-100 sm:grid ">
       <div className="w-full h-full grid sm:flex sm:px-24 sm:py-28">
         <div className="sm:w-1/2 relative">
           <img
             alt="about"
-            src="/images/HomePage/about.png"
+            src={src}
             className="h-full w-full rounded-xl"
           />
           <div className="z-10 bg-themeColor rounded-xl absolute -bottom-12 sm:-right-12 m-4 py-2 px-10 text-white grid justify-center items-center text-center font-playfair">
