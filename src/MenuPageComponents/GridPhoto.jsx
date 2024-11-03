@@ -111,7 +111,7 @@ const GridPhoto = () => {
   return (
     <div className="mx-16 my-6 font-playfair">
       <div className="flex justify-center items-center whitespace-nowrap  ">
-        <div className="flex mt-8 mb-12 justify-center items-center gap-8 ">
+        <div className="sm:flex grid grid-cols-2 mt-8 mb-12 justify-center items-center gap-8 ">
           {["All", "Breakfast", "Main Dishes", "Drinks", "Desserts"].map(
             (category) => (
               <ButtonTheme

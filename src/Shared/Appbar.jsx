@@ -45,11 +45,11 @@ const Appbar = () => {
   };
 
   const menuItems = [
-    { text: "Home", onClick: () => setDrawerOpen(false) },
-    { text: "About", onClick: () => setDrawerOpen(false) },
-    { text: "Menu", onClick: () => setDrawerOpen(false) },
-    { text: "Pages", onClick: () => setDrawerOpen(false) },
-    { text: "Contact", onClick: () => setDrawerOpen(false) },
+    { text: "Home", onClick: () => setDrawerOpen(false), path:'/homepage' }, 
+    { text: "About", onClick: () => setDrawerOpen(false), path:'/aboutpage' }, 
+    { text: "Menu", onClick: () => setDrawerOpen(false), path:'/menupage' }, 
+    { text: "Pages", onClick: () => setDrawerOpen(false), path:'/blogpage' }, 
+    { text: "Contact", onClick: () => setDrawerOpen(false), path:'/contactpage' }, 
   ];
 
   return (
@@ -109,13 +109,13 @@ const Appbar = () => {
         </div>
         {/* Drawer for menu */}
         <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
-          <List>
-            {menuItems.map((item) => (
-              <ListItem button key={item.text} onClick={item.onClick}>
-                <ListItemText primary={item.text} />
-              </ListItem>
-            ))}
-          </List>
+            <List>
+                {menuItems.map((item) => (
+                    <ListItem button key={item.text} component={Link} to={item.path} onClick={item.onClick}>
+                        <ListItemText primary={item.text} />
+                    </ListItem>
+                ))}
+            </List>
         </Drawer>
         {/* Cart Drawer */}
         <Drawer anchor="right" open={cartDrawerOpen} onClose={toggleCartDrawer(false)}>

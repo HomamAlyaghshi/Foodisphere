@@ -33,7 +33,7 @@ const AboutVideo = () => {
 
         {/* طبقة متراكبة لعرض النص وزر التشغيل */}
         {!isPlaying && (
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+          <div className="absolute top-0 left-0 w-full h-full hidden sm:flex flex-col justify-center items-center ">
             <h2 className="text-white text-6xl font-playfair italic mb-4">
               Feel the authentic &<br/>orginal taste from us
             </h2>
