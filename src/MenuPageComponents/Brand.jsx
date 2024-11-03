@@ -10,19 +10,19 @@ const Brand = () => {
         </div>
         <div className='w-2/3 h-full grid-cols-3  justify-center items-center flex gap-8'>
         <div className='col-span-1 grid gap-4'>
-  <img alt='brand 1' src='/images/MenuPage/brand1.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-  <img alt='brand 1' src='/images/MenuPage/brand2.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-  <img alt='brand 1' src='/images/MenuPage/brand3.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
+  <img alt='brand 1' src='/images/MenuPage/brand1.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+  <img alt='brand 1' src='/images/MenuPage/brand2.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+  <img alt='brand 1' src='/images/MenuPage/brand3.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
 </div>
         <div className='col-span-1 grid gap-4'>
-        <img alt='brand 1' src='/images/MenuPage/brand4.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-        <img alt='brand 1' src='/images/MenuPage/brand5.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-        <img alt='brand 1' src='/images/MenuPage/brand6.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand4.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand5.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand6.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
         </div>
         <div className='col-span-1 grid gap-4'>
-        <img alt='brand 1' src='/images/MenuPage/brand7.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-        <img alt='brand 1' src='/images/MenuPage/brand8.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
-        <img alt='brand 1' src='/images/MenuPage/brand9.png' className='py-4 px-6 bg-white rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand7.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand8.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
+        <img alt='brand 1' src='/images/MenuPage/brand9.png' className='py-4 px-6     rounded-xl w-full h-full object-cover'/>
         </div>
         
         </div>

@@ -93,7 +93,7 @@ const Appbar = () => {
           </a>
         </div>
       </div>
-      <div className="h-2/3 bg-lightColor flex justify-between items-center px-16">
+      <div className="h-2/3   flex justify-between items-center px-16">
         <div className="flex gap-4">
           <img alt="Logo" src="/images/logo.png" className="w-full h-full" />
           <Link to={"/homepage"}>

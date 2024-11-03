@@ -21,7 +21,7 @@ const AboutVideo = () => {
       >
         <video
           ref={videoRef}
-          className="w-full h-auto rounded-xl"
+          className="w-full  h-auto rounded-xl"
           controls
           autoPlay={false} // عدم التشغيل التلقائي حتى يضغط المستخدم
           loop
@@ -38,7 +38,7 @@ const AboutVideo = () => {
               Feel the authentic &<br/>orginal taste from us
             </h2>
             <button
-              className="bg-white p-4 rounded-full  shadow-lg"
+              className="  bg-white   p-4 rounded-full  shadow-lg"
               onClick={handlePlay}
             >
               <svg

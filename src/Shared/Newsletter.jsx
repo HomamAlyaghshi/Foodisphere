@@ -22,7 +22,7 @@ const Newsletter = () => {
                 type="email"
                 autoComplete="email"
                 required
-                className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm"
+                className="min-w-0 flex-auto rounded-md border-0    /5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm"
                 placeholder="Enter your email"
               />
               <button
@@ -35,7 +35,7 @@ const Newsletter = () => {
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
-              <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+              <div className="rounded-md    /5 p-2 ring-1 ring-white/10">
                 <svg
                   className="h-6 w-6 text-white"
                   fill="none"
@@ -57,7 +57,7 @@ const Newsletter = () => {
               </dd>
             </div>
             <div className="flex flex-col items-start">
-              <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+              <div className="rounded-md    /5 p-2 ring-1 ring-white/10">
                 <svg
                   className="h-6 w-6 text-white"
                   fill="none"

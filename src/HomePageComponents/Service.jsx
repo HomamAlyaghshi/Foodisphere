@@ -3,7 +3,7 @@ import CardService from "./CardService";
 
 const Service = () => {
   return (
-    <div className="w-full h-full my-10  bg-lightColor">
+    <div className="w-full h-full my-10   ">
       <h1 className="font-playfair text-5xl mb-4 text-themeColor mx-12 sm:mb-12">
         We also offer unique
         <br />

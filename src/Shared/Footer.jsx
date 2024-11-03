@@ -1,4 +1,6 @@
 import React from 'react'
+import QRCodeGenerator from "../Components/QRCodeGenerator";
+import { faInstagram, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -56,6 +58,13 @@ const Footer = () => {
         </svg>
       </button>
     </div>
+    <div className="flex gap-2 justify-center items-center mt-4">
+            <QRCodeGenerator linkQR={"https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"} QRicon={faInstagram}/>
+            <QRCodeGenerator linkQR={'https://www.facebook.com/hummam.yag?mibextid=kFxxJD'} QRicon={faFacebook}/>
+            <QRCodeGenerator linkQR={"https://github.com/HomamAlyaghshi"} QRicon={faGithub}/>
+            <QRCodeGenerator linkQR={"https://www.linkedin.com/in/homam-alyaghshi-ab78351a6/"} QRicon={faLinkedin}/>
+
+            </div>
   </nav>
 </footer>
 

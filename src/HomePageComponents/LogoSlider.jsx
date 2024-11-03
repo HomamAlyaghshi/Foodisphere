@@ -33,7 +33,7 @@ const LogoSlider = () => {
   };
 
   return (
-    <div className="bg-white px-4">
+    <div className="    px-4">
       {" "}
       {/* Add padding to the outer container */}
       <Slider {...settings} className="m-6 pl-16 ">

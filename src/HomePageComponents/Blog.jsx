@@ -30,7 +30,7 @@ const Blog = () => {
           Articles & Blog
         </div>
         <div className="flex border-b-[1px] border-blackButton items-center mt-4 md:mt-0">
-          <Link to={"/"}>
+          <Link to={"/blogpage"}>
             <ButtonTheme
               variant={"contained"}
               width={"200px"}
