@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaPhone,
   FaBars,
+  FaGitlab,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import ButtonTheme from "../Components/ButtonTheme";
@@ -40,7 +41,7 @@ const Appbar = () => {
   ];
 
   return (
-    <div className="h-[150px]">
+    <div className="h-[150px] font-playfair font-bold ">
       <div className="h-1/3 bg-themeColor flex justify-between items-center px-24">
         <div className="flex justify-center items-center gap-6 text-white text-[12px]">
           <div className="flex gap-1 justify-center items-center">
@@ -53,30 +54,67 @@ const Appbar = () => {
           </div>
         </div>
         <div className="flex gap-1 text-[12px] text-white">
-          <button className="p-1 bg-themeColorLight rounded-full flex items-center">
-            <FaFacebookF className="m-1" />
-          </button>
-          <button className="p-1 bg-themeColorLight rounded-full flex items-center">
-            <FaInstagram className="m-1" />
-          </button>
-          <button className="p-1 bg-themeColorLight rounded-full flex items-center">
-            <FaGithub className="m-1" />
-          </button>
-          <button className="p-1 bg-themeColorLight rounded-full flex items-center">
-            <FaLinkedinIn className="m-1" />
-          </button>
+          <a
+            href="https://www.facebook.com/hummam.yag?mibextid=kFxxJD"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-1 bg-themeColorLight rounded-full flex items-center">
+              <FaFacebookF className="m-1" />
+            </button>
+          </a>
+
+          <a
+            href="https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-1 bg-themeColorLight rounded-full flex items-center">
+              <FaInstagram className="m-1" />
+            </button>
+          </a>
+
+          <a
+            href="https://github.com/HomamAlyaghshi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-1 bg-themeColorLight rounded-full flex items-center">
+              <FaGithub className="m-1" />
+            </button>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/homam-alyaghshi-ab78351a6/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-1 bg-themeColorLight rounded-full flex items-center">
+              <FaLinkedinIn className="m-1" />
+            </button>
+          </a>
+
+          <a
+            href="https://gitlab.com/homamalyaghshi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-1 bg-themeColorLight rounded-full flex items-center">
+              <FaGitlab className="m-1" />
+            </button>
+          </a>
         </div>
       </div>
-      <div className="h-2/3 bg-lightColor flex justify-between items-end px-16">
+      <div className="h-2/3 bg-lightColor flex justify-between items-center px-16">
         <div className="flex gap-4">
           <img alt="Logo" src="/images/logo.png" className="w-full h-full" />
           <Link to={"/homepage"}>
-            <button className="font-playfair italic text-[48px] text-themeColor hover:text-themeRed hover:scale-105">
+            <button className="font-playfair italic text-[32px] sm:text-[48px] text-themeColor hover:text-themeRed hover:scale-105">
               Foodisphere
             </button>
           </Link>
         </div>
-        {/* أيقونة مينيو برغر لأحجام الجوال */}
+        {/**Burger Menu for mob */}
         <div className="sm:hidden ">
           <IconButton onClick={toggleDrawer(true)} className="text-themeColor">
             <FaBars />
@@ -109,15 +147,19 @@ const Appbar = () => {
               Menu
             </button>
           </Link>
-          <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
-            Pages
-          </button>
-          <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
-            Contact
-          </button>
+          <Link to={"/blogpage"}>
+            <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+              Pages
+            </button>
+          </Link>
+          <Link to={"/contactpage"}>
+            <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
+              Contact
+            </button>
+          </Link>
         </div>
         <div className="hidden sm:flex mb-1">
-          <ButtonTheme variant="outlined" color={"#474747"}>
+          <ButtonTheme variant="outlined" color={"#474747"} href={"/booktable"}>
             Book A Table
           </ButtonTheme>
         </div>

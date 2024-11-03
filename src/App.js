@@ -8,6 +8,9 @@ import SignIn from "./Auth/SignIn";
 import SignUp from "./Auth/SignUp";
 import ForgetPassword from "./Auth/ForgetPassword";
 import MenuPage from "./Pages/MenuPage";
+import BookTable from "./Pages/BookTable";
+import BlogPage from "./Pages/BlogPage";
+import ContactUsPage from "./Pages/ContactUsPage";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/homepage" component={HomePage} />
           <Route path="/aboutpage" component={AboutPage} />
           <Route path="/menupage" component={MenuPage} />
+          <Route path="/booktable" component={BookTable} />
+          <Route path="/blogpage" component={BlogPage} />
+          <Route path="/contactpage" component={ContactUsPage} />
         </Switch>
       </div>
     </Router>
