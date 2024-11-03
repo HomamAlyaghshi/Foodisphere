@@ -45,7 +45,7 @@ const About = ({src}) => {
               revealed a hidden beauty, a place where time seemed to stand
               still. Nature’s secrets beckoned us to listen closely.
             </div>
-            <ButtonTheme variant={'outlined'} color={'#474747'}>
+            <ButtonTheme variant={'outlined'} color={'#474747'} href={'/aboutpage'}>
                 More About Us
             </ButtonTheme>
           </div>

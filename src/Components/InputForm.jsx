@@ -71,12 +71,12 @@ const InputForm = () => {
   const timeOptions = generateTimeOptions();
   return (
     <Container
-      className="    rounded-2xl shadow-2xl mb-4    "
+      className="  bg-white w-full  rounded-2xl shadow-2xl mb-4    "
       maxWidth="md"
     >
-      <div className=" px-16 py-20  rounded-xl   ">
+      <div className=" sm:px-16 py-20  rounded-xl   ">
         <div className="grid gap-8 mb-8">
-          <div className="flex gap-4 ">
+          <div className="sm:flex gap-4 ">
             <TextField
               variant="outlined"
               label="DD/MM/YYYY"
@@ -111,7 +111,7 @@ const InputForm = () => {
               ))}
             </TextField>
           </div>
-          <div className="flex gap-4">
+          <div className="sm:flex grid gap-4">
             <TextField
               variant="outlined"
               label="Enter your name"
