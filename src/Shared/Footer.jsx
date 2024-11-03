@@ -59,10 +59,9 @@ const Footer = () => {
       </button>
     </div>
     <div className="sm:flex grid grid-cols-2 gap-2 justify-center items-center mt-4">
-            <QRCodeGenerator linkQR={"https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"} QRicon={faInstagram}/>
-            <QRCodeGenerator linkQR={'https://www.facebook.com/hummam.yag?mibextid=kFxxJD'} QRicon={faFacebook}/>
-            <QRCodeGenerator linkQR={"https://github.com/HomamAlyaghshi"} QRicon={faGithub}/>
-            <QRCodeGenerator linkQR={"https://www.linkedin.com/in/homam-alyaghshi-ab78351a6/"} QRicon={faLinkedin}/>
+      <h1 className="font-playfair text-2xl text-themeColor">Visit us om Instagram see more</h1>
+            <QRCodeGenerator linkQR={"https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"}/>
+
 
             </div>
   </nav>
