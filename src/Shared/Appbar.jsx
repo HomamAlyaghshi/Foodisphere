@@ -7,6 +7,7 @@ import {
   FaPhone,
   FaBars,
   FaGitlab,
+  FaCartPlus,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import ButtonTheme from "../Components/ButtonTheme";
@@ -21,6 +22,7 @@ import { Link } from "react-router-dom";
 
 const Appbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [cartDrawerOpen, setCartDrawerOpen] = useState(false); // إضافة حالة جديدة لـ Cart Drawer
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -30,6 +32,16 @@ const Appbar = () => {
       return;
     }
     setDrawerOpen(open);
+  };
+
+  const toggleCartDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+    setCartDrawerOpen(open);
   };
 
   const menuItems = [
@@ -54,51 +66,27 @@ const Appbar = () => {
           </div>
         </div>
         <div className="flex gap-1 text-[12px] text-white">
-          <a
-            href="https://www.facebook.com/hummam.yag?mibextid=kFxxJD"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.facebook.com/hummam.yag?mibextid=kFxxJD" target="_blank" rel="noopener noreferrer">
             <button className="p-1 bg-themeColorLight rounded-full flex items-center">
               <FaFacebookF className="m-1" />
             </button>
           </a>
-
-          <a
-            href="https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0" target="_blank" rel="noopener noreferrer">
             <button className="p-1 bg-themeColorLight rounded-full flex items-center">
               <FaInstagram className="m-1" />
             </button>
           </a>
-
-          <a
-            href="https://github.com/HomamAlyaghshi"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/HomamAlyaghshi" target="_blank" rel="noopener noreferrer">
             <button className="p-1 bg-themeColorLight rounded-full flex items-center">
               <FaGithub className="m-1" />
             </button>
           </a>
-
-          <a
-            href="https://www.linkedin.com/in/homam-alyaghshi-ab78351a6/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/homam-alyaghshi-ab78351a6/" target="_blank" rel="noopener noreferrer">
             <button className="p-1 bg-themeColorLight rounded-full flex items-center">
               <FaLinkedinIn className="m-1" />
             </button>
           </a>
-
-          <a
-            href="https://gitlab.com/homamalyaghshi/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://gitlab.com/homamalyaghshi/" target="_blank" rel="noopener noreferrer">
             <button className="p-1 bg-themeColorLight rounded-full flex items-center">
               <FaGitlab className="m-1" />
             </button>
@@ -114,13 +102,12 @@ const Appbar = () => {
             </button>
           </Link>
         </div>
-        {/**Burger Menu for mob */}
         <div className="sm:hidden ">
           <IconButton onClick={toggleDrawer(true)} className="text-themeColor">
             <FaBars />
           </IconButton>
         </div>
-        {/* Drawer */}
+        {/* Drawer for menu */}
         <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
           <List>
             {menuItems.map((item) => (
@@ -130,7 +117,13 @@ const Appbar = () => {
             ))}
           </List>
         </Drawer>
-        {/* أزرار القائمةd الأحجام الكبيرة */}
+        {/* Cart Drawer */}
+        <Drawer anchor="right" open={cartDrawerOpen} onClose={toggleCartDrawer(false)}>
+          <div style={{ width: 250, padding: 20 }}>
+            <h2>Your Cart</h2>
+            {/* Add your cart items here */}
+          </div>
+        </Drawer>
         <div className="hidden sm:flex mb-3 gap-1 text-lightColor -ml-20 ">
           <Link to={"/homepage"}>
             <button className="bg-themeColor py-1 px-4 mb-1 rounded-full hover:bg-themeColorLight transition-all duration-500 hover:scale-105 hover:rotate-12">
@@ -158,7 +151,10 @@ const Appbar = () => {
             </button>
           </Link>
         </div>
-        <div className="hidden sm:flex mb-1">
+        <div className="hidden sm:flex mb-1 gap-2">
+          <button className="hover:text-themeRed text-themeColorLight text-[28px] p-2 border-[2px] rounded-full hover:bg-gray-100 border-themeColor" onClick={toggleCartDrawer(true)}>
+            <FaCartPlus/>
+          </button>
           <ButtonTheme variant="outlined" color={"#474747"} href={"/booktable"}>
             Book A Table
           </ButtonTheme>

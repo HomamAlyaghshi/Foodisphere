@@ -10,7 +10,7 @@ const Hero = () => {
   <p className='sm:text-[18px] md:text-[17px] text-[16px] '>Discover delectable cuisine and unforgettable moments <br/> in our welcoming, culinary haven.</p>
   <div className='flex mt-6 gap-2 w-[340px] '>
     <ButtonTheme variant={'contained'} bgcolor='error' href={'/booktable'} >Book A Table</ButtonTheme>
-    <ButtonTheme variant={'outlined'} color={'#474747'}>Explore A Menu</ButtonTheme>
+    <ButtonTheme variant={'outlined'} color={'#474747'} href={'/menupage'}>Explore A Menu</ButtonTheme>
   </div>
   </div>
 </div>
