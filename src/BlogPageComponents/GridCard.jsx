@@ -82,12 +82,8 @@ const GridCard = () => {
 
   
   return (
-    <div className="mx-16 my-6 font-playfair">
-      <div className="flex justify-center items-center whitespace-nowrap  ">
-        <div className="flex mt-8 mb-12 justify-center items-center gap-8 ">
-          
-        </div>
-      </div>
+    <div className="sm:mx-16 my-6 font-playfair">
+   
 
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map((item) => (

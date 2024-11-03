@@ -5,7 +5,7 @@ import ButtonTheme from "../Components/ButtonTheme";
 
 const SignUp = () => {
   return (
-    <div className="">
+    <div className="w-full">
       <div
         className="hero min-h-screen"
         style={{
@@ -21,13 +21,13 @@ const SignUp = () => {
             className="m-12 w-28 h-28 rounded-full"
           />
         </div>
-        <div className="hero-content text-center bg-white     opacity-90 rounded-lg px-10 py-10 text-themeColor">
+        <div className="hero-content text-center bg-white opacity-90 rounded-lg sm:px-10 py-10 text-themeColor">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl w-[400px] font-bold font-playfair italic">
+            <h1 className="mb-5 text-5xl w-[300px] sm:w-[400px] font-bold font-playfair italic">
               Sign Up
             </h1>
             <div className="grid gap-4 ">
-              <div className="flex gap-2 w-full">
+              <div className="sm:flex grid gap-2 w-full">
                 <TextField
                   id="outlined-basic"
                   label="First Name"

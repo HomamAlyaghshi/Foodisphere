@@ -58,7 +58,7 @@ const Footer = () => {
         </svg>
       </button>
     </div>
-    <div className="flex gap-2 justify-center items-center mt-4">
+    <div className="sm:flex grid grid-cols-2 gap-2 justify-center items-center mt-4">
             <QRCodeGenerator linkQR={"https://www.instagram.com/homam_yaghshi/profilecard/?igsh=YTB4dXN2ZDV3cWE0"} QRicon={faInstagram}/>
             <QRCodeGenerator linkQR={'https://www.facebook.com/hummam.yag?mibextid=kFxxJD'} QRicon={faFacebook}/>
             <QRCodeGenerator linkQR={"https://github.com/HomamAlyaghshi"} QRicon={faGithub}/>

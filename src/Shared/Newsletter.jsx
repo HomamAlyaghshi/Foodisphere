@@ -57,7 +57,7 @@ const Newsletter = () => {
               </dd>
             </div>
             <div className="flex flex-col items-start">
-              <div className="rounded-md    /5 p-2 ring-1 ring-white/10">
+              <div className="rounded-md  p-2 ring-1 ring-white/10">
                 <svg
                   className="h-6 w-6 text-white"
                   fill="none"
@@ -85,9 +85,7 @@ const Newsletter = () => {
         className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
         aria-hidden="true"
       >
-        <div
-          className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#5c5c5c] to-[#474747] opacity-30"
-        ></div>
+       
       </div>
     </div>
   );

@@ -19,9 +19,9 @@ const SignIn = () => {
         <div className="hero-overlay bg-opacity-60   ">
             <img alt="logo" src="/images/logo.png" className="m-12 w-28 h-28 rounded-full" />
         </div>
-        <div className="hero-content text-center   bg-white  opacity-90 rounded-lg px-10 py-12 text-themeColor">
+        <div className="hero-content text-center   bg-white  opacity-90 rounded-lg sm:px-10 py-12 text-themeColor">
           <div className="max-w-md">
-            <h1 className="mb-6 text-5xl  w-[400px] font-bold font-playfair italic">
+            <h1 className="mb-6 text-5xl w-[325px]  sm:w-[400px] font-bold font-playfair italic">
               SignIn
             </h1>
             <div className="grid gap-4 ">

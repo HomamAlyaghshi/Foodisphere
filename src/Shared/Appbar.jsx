@@ -56,7 +56,7 @@ const Appbar = () => {
     <div className="h-[150px] font-playfair font-bold ">
       <div className="h-1/3 bg-themeColor flex justify-between items-center px-24">
         <div className="flex justify-center items-center gap-6 text-white text-[12px]">
-          <div className="flex gap-1 justify-center items-center">
+          <div className="sm:flex hidden gap-1 justify-center items-center">
             <FaPhone />
             <div>+963 997 831 250</div>
           </div>
@@ -93,11 +93,11 @@ const Appbar = () => {
           </a>
         </div>
       </div>
-      <div className="h-2/3   flex justify-between items-center px-16">
-        <div className="flex gap-4">
+      <div className="h-2/3   flex justify-between items-center sm:px-16">
+        <div className="flex sm:gap-4 items-center justify-center ">
           <img alt="Logo" src="/images/logo.png" className="w-full h-full" />
           <Link to={"/homepage"}>
-            <button className="font-playfair italic text-[32px] sm:text-[48px] text-themeColor hover:text-themeRed hover:scale-105">
+            <button className="font-playfair italic text-[36px] sm:text-[48px] text-themeColor hover:text-themeRed hover:scale-105">
               Foodisphere
             </button>
           </Link>
