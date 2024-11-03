@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-const QRCodeGenerator = ({ linkQR,QRicon,colorIcon}) => {
+const QRCodeGenerator = ({ linkQR,QRicon}) => {
     const [inputText, setInputText] = useState({linkQR });
 
     return (
