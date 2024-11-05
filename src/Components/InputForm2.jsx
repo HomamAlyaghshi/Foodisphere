@@ -27,7 +27,7 @@ const InputForm2 = () => {
 
   return (
     <Container
-      className="    rounded-2xl shadow-2xl mb-4    "
+      className="rounded-2xl shadow-2xl mb-4    "
       maxWidth="md"
     >
       <div className=" sm:px-16 py-20  rounded-xl   ">
