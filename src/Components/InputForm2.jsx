@@ -30,7 +30,7 @@ const InputForm2 = () => {
       className="    rounded-2xl shadow-2xl mb-4    "
       maxWidth="md"
     >
-      <div className=" px-16 py-20  rounded-xl   ">
+      <div className=" sm:px-16 py-20  rounded-xl   ">
         <div className="grid gap-8 mb-8">
           <div className="flex gap-4">
             <TextField

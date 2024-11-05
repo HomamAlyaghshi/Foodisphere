@@ -109,7 +109,7 @@ const GridPhoto = () => {
       : data.filter((item) => item.category === selectedCategory);
 
   return (
-    <div className="mx-16 my-6 font-playfair">
+    <div className="sm:mx-16 my-6 font-playfair">
       <div className="flex justify-center items-center whitespace-nowrap  ">
         <div className="sm:flex grid grid-cols-2 mt-8 mb-12 justify-center items-center gap-x-16 gap-y-4 sm:gap-8 ">
           {["All", "Breakfast", "Main Dishes", "Drinks", "Desserts"].map(
@@ -130,7 +130,7 @@ const GridPhoto = () => {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 sm:px-0">
         {filteredData.map((item) => (
           <div key={item.id} className="card bg-base-100 w-full shadow-xl">
             <figure>

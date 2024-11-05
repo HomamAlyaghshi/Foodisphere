@@ -3,7 +3,7 @@ import { FaCartArrowDown, FaClock, FaStar } from "react-icons/fa";
 const Content = () => {
   return (
     <div className="w-full h-full sm:flex grid justify-center items-center">
-      <div className=" my-24 mx-0 sm:mx-20 flex">
+      <div className=" sm:my-24 mx-0 sm:mx-20 flex ">
         <div className="grid sm:grid-cols-12 w-full h-full gap-4 ">
           <div className="hidden sm:grid sm:col-span-8 bg-slate-200">
             <img alt="content 1" src="/images/HomePage/content1.png" className="h-full w-full" />
@@ -25,9 +25,9 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="   grid font-playfair">
+        <div className="   grid justify-center mr-8 sm:mr-0 items-center text-left  font-playfair">
           <div className=" my-20 mx-0 sm:mx-16">
-            <div className="text-5xl whitespace-nowrap">
+            <div className="text-5xl whitespace-nowrap ">
               Fastest Food
               <br /> Delivery in city
             </div>

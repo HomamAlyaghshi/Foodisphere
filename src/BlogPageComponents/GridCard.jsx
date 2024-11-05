@@ -87,7 +87,7 @@ const GridCard = () => {
 
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map((item) => (
-          <div key={item.id} className="card bg-base-100 w-full shadow-xl">
+          <div key={item.id} className="card bg-base-100 w-full shadow-xl sm:px-0 px-2">
             <figure>
               <img
                 src={item.image}

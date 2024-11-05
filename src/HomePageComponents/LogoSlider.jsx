@@ -36,7 +36,7 @@ const LogoSlider = () => {
     <div className="    px-4">
       {" "}
       {/* Add padding to the outer container */}
-      <Slider {...settings} className="m-6 pl-16 ">
+      <Slider {...settings} className="m-6  ">
         {/* Images */}
         <div className="flex justify-center p-2">
           <img alt="logo4" src="/images/HomePage/logo1.png" className="w-16 sm:w-40 mx-2" />
